@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2026 The POX OS Project
+-->
+<resources>
+    <string name="app_name">POX Hub</string>
+    <string name="pox_hub_title">POX Customizations</string>
+    <string name="category_themes">Aesthetics &amp; Themes</string>
+    <string name="category_statusbar">Status Bar</string>
+    <string name="category_quicksettings">Quick Settings</string>
+    <string name="category_lockscreen">Lock Screen</string>
+</resources>
