@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2026 The POX OS Project
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.pox.hub"
+    android:sharedUserId="android.uid.system">
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+
+    <application
+        android:label="@string/app_name"
+        android:defaultToDeviceProtectedStorage="true"
+        android:directBootAware="true">
+
+        <activity
+            android:name=".PoxHubActivity"
+            android:label="@string/app_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
