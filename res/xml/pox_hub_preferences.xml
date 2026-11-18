@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2026 The POX OS Project
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/pox_hub_title">
+
+    <PreferenceCategory
+        android:title="@string/category_themes">
+        <Preference
+            android:key="theme_accent"
+            android:title="System Accents &amp; Palette"
+            android:summary="Customize dynamic system accent colors and palette rules" />
+        <Preference
+            android:key="theme_fonts"
+            android:title="System Fonts"
+            android:summary="Select custom system typography" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/category_statusbar">
+        <Preference
+            android:key="statusbar_battery"
+            android:title="Battery Indicator Style"
+            android:summary="Configure battery icon, circle, text, or hidden" />
+        <Preference
+            android:key="statusbar_network"
+            android:title="Network Traffic Monitor"
+            android:summary="Display real-time upload and download speeds" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/category_quicksettings">
+        <Preference
+            android:key="qs_layout"
+            android:title="Quick Settings Tiles"
+            android:summary="Configure tile columns, row count, and animations" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/category_lockscreen">
+        <Preference
+            android:key="lockscreen_clock"
+            android:title="Lock Screen Clock Style"
+            android:summary="Select custom digital, analog, or minimal clock layout" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
