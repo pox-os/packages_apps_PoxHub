@@ -1,6 +1,9 @@
 //
 // Copyright (C) 2026 The POX OS Project
 //
+// Governed by DevSkill R-001 (Zero TODOs), R-033 (Strict Static Typing),
+// R-061 (IPC Parameterization), and R-065 (AOSP Treble stability).
+//
 
 android_app {
     name: "PoxHub",
@@ -15,6 +18,9 @@ android_app {
         "androidx.appcompat_appcompat",
         "com.google.android.material_material",
     ],
+
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
 
     optimize: {
         enabled: false,
